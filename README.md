@@ -1,27 +1,28 @@
 # Employee Attendance System (EAS)
 The Employee Attendance System (EAS) is a web-based application designed to streamline the management of employee attendance in organizations. This system allows administrators to efficiently track employee check-ins and check-outs, manage employee records, and generate attendance reports. Built using Node.js, Express, and MongoDB, EAS provides a user-friendly interface for both administrators and employees.
 
-Key Features
-Admin Dashboard: A comprehensive dashboard for administrators to manage employee records, view attendance data, and add new employees.
+Key Features:
 
-Employee Management: Easily add, update, and delete employee information, including username, phone number, and email.
+    Admin Dashboard: A comprehensive dashboard for administrators to manage employee records, view attendance data, and add new employees.
 
-Check-In and Check-Out: Employees can check in and out using their location data, which is captured via geolocation. The system ensures that employees cannot check in multiple times for the same day.
+    Employee Management: Easily add, update, and delete employee information, including username, phone number, and email.
 
-Attendance Tracking: The application records the latitude and longitude of check-ins and check-outs, along with timestamps and city information.
+    Check-In and Check-Out: Employees can check in and out using their location data, which is captured via geolocation. The system ensures that employees cannot check in multiple times for the same day.
 
-User Authentication: Secure login for administrators using Passport.js for authentication, ensuring that only authorized personnel can access sensitive data.
+    Attendance Tracking: The application records the latitude and longitude of check-ins and check-outs, along with timestamps and city information.
 
-Responsive Design: The application is designed to be mobile-friendly, allowing employees to check in and out from their smartphones.
+    User Authentication: Secure login for administrators using Passport.js for authentication, ensuring that only authorized personnel can access sensitive data.
 
-Technologies Used
+    Responsive Design: The application is designed to be mobile-friendly, allowing employees to check in and out from their smartphones.
 
-Backend: Node.js, Express.js
+Technologies Used:
 
-Database: MongoDB
+    Backend: Node.js, Express.js
 
-Authentication: Passport.js
+    Database: MongoDB
 
-Frontend: EJS (Embedded JavaScript), HTML, CSS
+    Authentication: Passport.js
 
-Geolocation: Utilizes browser geolocation API for capturing employee locations.
+    Frontend: EJS (Embedded JavaScript), HTML, CSS
+
+    Geolocation: Utilizes browser geolocation API for capturing employee locations.
